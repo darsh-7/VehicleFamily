@@ -1,4 +1,4 @@
-﻿namespace Vehicle_Family
+﻿namespace VehicleFamily
 {
     class Vehicle
     {
@@ -59,7 +59,7 @@
             Console.WriteLine("___________________________________");
 
             Car C = new Car(distance, hour, fuel);
-            Console.WriteLine($"Car Average is {C.Average} Mile");
+            Console.WriteLine($"Car Average is {C.Average} KM");
             Console.WriteLine($"Car Speed is {C.Speed()} Mile/H");
         }
     }
