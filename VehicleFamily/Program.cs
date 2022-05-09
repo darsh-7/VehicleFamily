@@ -17,8 +17,6 @@
         {
             double average = 0.0;
             average = distance / fuel;
-           // Console.WriteLine($"Car Average is {average} KM");
-
             return average;
         }
 
@@ -57,12 +55,10 @@
             Vehicle Veh = new Vehicle(distance, hour, fuel);
             Console.WriteLine($"Vehicle Average is {Veh.Average()} KM");
             Console.WriteLine($"Vehicle Speed is {Veh.Speed()} KM/H");
-           // Veh.Average();
 
             Console.WriteLine("___________________________________");
 
             Car C = new Car(distance, hour, fuel);
-           // C.Average();
             Console.WriteLine($"Car Average is {C.Average()} KM");
             Console.WriteLine($"Car Speed is {C.Speed()} Mile/H");
         }
